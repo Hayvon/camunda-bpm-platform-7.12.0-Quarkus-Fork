@@ -1,3 +1,15 @@
+*Forked Camunda repository to get Camunda running on Quarkus*
+
+Added "@Dependent" to following Files:
+* engine-cdi/src/main/java/org/camunda/bpm/engine/cdi/BusinessProcess.java
+* engine-cdi/src/main/java/org/camunda/bpm/engine/cdi/ProcessVariables.java
+* engine-cdi/src/main/java/org/camunda/bpm/engine/cdi/impl/ProcessVariableLocalMap.java
+* engine-cdi/src/main/java/org/camunda/bpm/engine/cdi/impl/ProcessVariableMap.java
+* engine-cdi/src/main/java/org/camunda/bpm/engine/cdi/impl/context/DefaultContextAssociationManager.java
+
+Source: https://javahippie.net/java/microprofile/quarkus/camunda/cdi/2020/02/07/camundaquarkus.html
+
+
 camunda BPM - The open source BPM platform
 ==========================================
 
